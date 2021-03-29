@@ -1,0 +1,67 @@
+node_modules/
+packages/
+bin/
+obj/
+
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+
+*.cache
+*.Cache
+*.pdb
+*.bak
+*.suo
+*.exe
+*spec.ts
+*.user
+*/.vs
+
+
+
+
+
+
+.vs/
+celam-api/.config/dotnet-tools.json
+
+celam-api/store/images/00000000-0000-0000-0000-000000000000..jpg
+celam-api/store/images/1a3b9247-3062-478a-967d-71ba43a2f370..jpg
+celam-api/store/images/8df61125-79ff-461a-ad27-53c3c0ba155a..jpg
+celam-api/store/images/d5ae921b-6a97-411c-bd44-54b4c5acf677..jpg
