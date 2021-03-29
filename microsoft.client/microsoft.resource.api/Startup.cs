@@ -51,11 +51,11 @@ namespace microsoft.resource.api
             apiAppSettings.apiConfig = apiConfig;
 
 
-            var providers = new List<Fwk.Security.Identity.jwtSecurityProvider>();
-            Configuration.Bind("fwk_securityProviders", providers);
+            //var providers = new List<Fwk.Security.Identity.jwtSecurityProvider>();
+            //Configuration.Bind("fwk_securityProviders", providers);
 
             var secConfig = new Fwk.Security.Identity.secConfig();
-            secConfig.fwk_securityProviders = providers;
+            //secConfig.fwk_securityProviders = providers;
             secConfig.cnnStrings = connectionStrings;
 
 
