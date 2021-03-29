@@ -11,6 +11,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DocumentationFile>C:\Users\moviedo\Documents\pelsoft.jwt.demo\pelsoft.auth\pelsoft.auth\pelsoft.auth.xml</DocumentationFile>
   </PropertyGroup>
 	<PropertyGroup>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>

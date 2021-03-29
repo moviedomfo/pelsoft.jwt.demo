@@ -46,7 +46,8 @@ namespace pelsoft.auth.common
             var refreshToken = new RefreshToken
             {
                 Token = Convert.ToBase64String(randomBytes),
-                Expires = DateTime.UtcNow.AddHours(12),
+                // Este valor en un caso real debe ser configurado. En este caso lo dejamos harcodeado a una jornada laboral
+                Expires = DateTime.UtcNow.AddHours(9), 
                 Created = DateTime.UtcNow,
                 CreatedByIp = ipAddress,
                 UserID = userId

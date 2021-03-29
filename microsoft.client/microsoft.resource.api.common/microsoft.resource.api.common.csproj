@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="fwk.bases.core">
+      <HintPath>..\libs\fwk.bases.core.dll</HintPath>
+    </Reference>
+    <Reference Include="fwk.security.core">
+      <HintPath>..\libs\fwk.security.core.dll</HintPath>
+    </Reference>
+    <Reference Include="fwk.security.identity.core">
+      <HintPath>..\libs\fwk.security.identity.core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

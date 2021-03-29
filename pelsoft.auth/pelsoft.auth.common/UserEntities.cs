@@ -126,7 +126,7 @@ namespace pelsoft.auth.models
         public int? Status { get; set; }
 
 
-        public List<AddressBE> AddressBEList { get; set; }
+    
         public string Phone1_label { get; set; }
         public string Phone2_label { get; set; }
         public string Mail_label { get; set; }
