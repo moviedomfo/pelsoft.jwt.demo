@@ -60,11 +60,11 @@ namespace microsoft.resource.api.Controllers
 
         [AllowAnonymous]
         [HttpGet("[action]")]
-        public IActionResult test()
+        public IActionResult test3()
         {
             try
             {
-                return Ok("Resource server works successfully");
+                return Ok("Resource server works successfully test3");
             }
             catch (Exception ex)
             {
