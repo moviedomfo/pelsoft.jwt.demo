@@ -14,11 +14,11 @@ namespace microsoft.resource.api.Controllers
  //   [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class TestController : ControllerBase
+    public class SalesController : ControllerBase
     {
         private readonly ITestService service;
 
-        public TestController(ITestService service)
+        public SalesController(ITestService service)
         {
             this.service = service;
 
@@ -60,11 +60,11 @@ namespace microsoft.resource.api.Controllers
 
         [AllowAnonymous]
         [HttpGet("[action]")]
-        public IActionResult test3()
+        public IActionResult test()
         {
             try
             {
-                return Ok("Resource server works successfully test3");
+                return Ok("Resource server works successfully");
             }
             catch (Exception ex)
             {
