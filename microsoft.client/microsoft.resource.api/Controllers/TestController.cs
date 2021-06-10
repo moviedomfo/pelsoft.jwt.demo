@@ -74,6 +74,19 @@ namespace microsoft.resource.api.Controllers
         }
 
 
+        [HttpGet("[action]")]
+        public IActionResult test4()
+        {
+            try
+            {
+                return Ok("Resource server works successfully test4");
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
 
 
     }
